@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Widgets/widget.dart';
+import '../Widgets/HomePageWidgets.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -39,4 +39,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
