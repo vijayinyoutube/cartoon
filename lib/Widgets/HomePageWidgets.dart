@@ -1,5 +1,7 @@
 import 'package:cartoon/Declarations/Images.dart';
 import 'package:cartoon/Declarations/Info.dart';
+import 'package:cartoon/Declarations/heroTags.dart';
+import 'package:cartoon/Screens/DetailsPage.dart';
 import 'package:flutter/material.dart';
 
 List<Widget> seriesType = [
@@ -117,7 +119,14 @@ Widget buildListView(BuildContext context) {
         scrollDirection: Axis.horizontal,
         itemCount: 5,
         itemBuilder: (context, index) {
-          return buildCards(context, index);
+          return GestureDetector(
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DetailsPage(index)));
+              },
+              child: buildCards(context, index));
         },
       ),
     ),
@@ -215,7 +224,8 @@ Widget buildImage(BuildContext context, int index) {
   return Container(
     height: 275,
     width: MediaQuery.of(context).size.width / 1.5,
-    child: Image.asset(image[index], fit: BoxFit.fill),
+    child: Hero(
+        tag: tags[index], child: Image.asset(image[index], fit: BoxFit.fill)),
   );
 }
 
