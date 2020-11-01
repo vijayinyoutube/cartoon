@@ -1,6 +1,4 @@
 import 'dart:ui';
-
-import 'package:cartoon/Declarations/Icons.dart';
 import 'package:cartoon/Declarations/Images.dart';
 import 'package:cartoon/Widgets/DetailsPageWidget.dart';
 import 'package:flutter/material.dart';
