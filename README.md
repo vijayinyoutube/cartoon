@@ -10,6 +10,10 @@ Cartoon App UI Design
 [![Flutter](https://img.shields.io/badge/_Flutter_-App-grey.svg?&logo=Flutter&logoColor=white&labelColor=blue)](https://github.com/vijayinyoutube/cartoon) 
 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/58719230/97831163-41b6db00-1cf5-11eb-8b95-84b087152bd6.png" width="100%">
+</p>
+
 ## Flutter
 [Flutter](https://flutter.dev/) is a crossplatfrom UI tool kit that helps in developing native Android and iOS app from a single code base.
 
@@ -18,9 +22,20 @@ Cartoon App UI Design
 
 Cartoon App UI Design built using Flutter
 
+Check out the video tutorial   👉 : https://youtu.be/fDyPzeaK9FA
+
 To know more awesome content about Flutter., 
 
 Visit my channel 👉 : https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ
+
+
+
+## Sample Results
+
+
+
+<img src="https://user-images.githubusercontent.com/58719230/97831397-e9340d80-1cf5-11eb-8443-501b7c1a0202.png"  width="250" height="500"> <img src="https://user-images.githubusercontent.com/58719230/97831403-edf8c180-1cf5-11eb-917c-7809e98df4f1.png" width="250" height="500"> 
+
 
 
 ## License
